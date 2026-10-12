@@ -17,8 +17,7 @@ the Unity project to compile and use the mobile/WebGL reader.
 ## What it does
 
 This is a small YAML key-value parser for Unity. It works with IDs and text
-from any game or project. It does not need to know what a game, notification,
-character, or message is. It reads each key and its text and returns them in a
+from any game or project. It reads each key and its text and returns them in a
 dictionary.
 
 This parser supports a simple part of YAML. It is not a full YAML parser. Each
