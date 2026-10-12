@@ -7,10 +7,9 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Networking;
 
-/// <summary>
+
 /// Loads YAML files from StreamingAssets with UnityWebRequest.
 /// Use this reader for Android, iOS, WebGL, and desktop builds.
-/// </summary>
 public static class MobileYamlReader
 {
     private static readonly UTF8Encoding StrictUtf8 = new UTF8Encoding(false, true);

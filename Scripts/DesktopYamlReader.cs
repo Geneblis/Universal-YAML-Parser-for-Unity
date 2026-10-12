@@ -6,10 +6,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
 
-/// <summary>
+
 /// Loads YAML files from the local StreamingAssets folder.
 /// Use this reader for Windows, macOS, and Linux desktop builds.
-/// </summary>
 public static class DesktopYamlReader
 {
     private static readonly UTF8Encoding StrictUtf8 = new UTF8Encoding(false, true);
